@@ -3,8 +3,25 @@
 	<head>
 		<meta charset="utf-8">
 		<title>My TodoMVC</title>
+		<link rel="stylesheet" href="css/index.css" media="screen" title="no title">
 	</head>
 	<body>
-		
+		<section class="todoapp">
+			<header>
+			  <h1 class="h1-todos">todos</h1>
+			  <input  name="name" class="new-todo" placeholder="What needs to be done?">
+			</header>
+			<section class="main">
+				<input id="toggle-all" type="checkbox">
+				<lable for="toggle-all">Mark all as complete</lable>
+				<ul class="todo-list"></ul>
+			</section>
+			<footer class="footer"></footer>
+    </section>
+		<footer class="info">
+			<p>Double-click to edit a todo</p>
+			<p>Created by <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
+			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+		</footer>
 	</body>
 </html>
